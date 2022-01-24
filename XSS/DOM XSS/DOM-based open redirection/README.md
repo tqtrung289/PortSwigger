@@ -8,5 +8,5 @@ Source code chứa 1 đoạn mã có chức năng quay về home khi đang ở t
 ```
 <br> Hàm ```onlick``` có chức năng lấy địa chỉ của bài viết match với regex ```/url=(https?:\/\/.+)/```  để tạo ra một mảng, nếu mảng này tồn tại,ta click vào thẻ a, 
 giá trị của url sẽ là phần tử ```returnUrl[1]``` 
-<br> Vì thế để chuyển tới url của exploit server, ta có thể thêm 1 tham số url trên thanh địa chỉ của 1 bài viết là link của exploit server tương ứng với phần tử ```returnUrl[1]```: 
+<br> Vì thế để chuyển tới url của exploit server, ta có thể thêm đoạn param là link của exploit server tương ứng với phần tử ```returnUrl[1]``` của mảng vào sau url của bài viết bất kì: 
 ```https://ac231f3c1e159555c06f5109004e001c.web-security-academy.net/post?postId=7&url=https://exploit-acff1f4a1e8d95c4c03151c4019f0035.web-security-academy.net/```
