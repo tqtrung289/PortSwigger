@@ -4,5 +4,6 @@ Yêu cầu: Bài này có lỗ hổng bảo mật theo chiều ngang, xác đị
 ![image](https://user-images.githubusercontent.com/62832067/156533159-822d1a5d-5e04-4977-8d6a-bcf136218fab.png)
 
 <br> Ta đăng nhập vào user wiener của bài cho để lấy được request, sau đó sửa GUID như GUID ta lấy được ở trên (sửa dòng số 3) rồi resend để có được API key của tk carlos
+<br>
 ![image](https://user-images.githubusercontent.com/62832067/156533783-90039e67-aa5e-48f4-b260-47325dc7201e.png)
 ![image](https://user-images.githubusercontent.com/62832067/156534087-e44c9087-786f-4022-b999-d193bc8c674f.png)
