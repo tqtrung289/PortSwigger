@@ -4,7 +4,6 @@ Yêu cầu: Exploit các lỗ hổng của Admin Panel để nâng role lên adm
 <br> 2. Submit thay đổi.
 <br> 3. Kiểm tra lại thay đổi và xác thực.
 <br> Bài này có lỗi ở các bước quá trình xác thực nâng role (bước 3), khi không cần kiểm tra đó có phải seesion của tk admin không 
-
 <br> Trước tiên, ta đăng nhập tài khoản admin đề bài cho, thực hiện nâng role cho tài khoản carlos để bắt request. Ở đây ta lưu ý tới dòng param dưới cùng, sau khi ấn upgrade sẽ có 1 bước xác thực Yes/No. 
 ![image](https://user-images.githubusercontent.com/62832067/156527758-d1fa72d0-c033-4497-8218-93e545604bb0.png)
 ![image](https://user-images.githubusercontent.com/62832067/156528219-b15c7060-5c4a-4f8c-bf7f-0e5be56028c8.png)
