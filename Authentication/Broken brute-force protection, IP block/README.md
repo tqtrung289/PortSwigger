@@ -14,4 +14,7 @@ with open(password) as pwd:
 add.close()
 ```
 ![image](https://user-images.githubusercontent.com/62832067/156863679-df8fcf98-2959-482a-a62a-ca27ecb3b61b.png)
+
+Chỉnh resource pool tách từng request riêng
+![image](https://user-images.githubusercontent.com/62832067/156877798-a8de940a-ef77-4ea2-b0a7-81057a03bb2f.png)
 ![image](https://user-images.githubusercontent.com/62832067/156877674-c6cd444b-4a81-4276-971c-7654a2e0895b.png)
